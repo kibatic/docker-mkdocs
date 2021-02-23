@@ -13,7 +13,7 @@ Les fichiers sont à mettre dans le répertoire docs/.
 exemple de config : mkdocs.yml
 
 ```yaml
-site_name: SynAirGIE
+site_name: Site title
 
 ## ajouter éventuellement une nav
 
