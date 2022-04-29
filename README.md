@@ -25,6 +25,7 @@ theme:
   name: material
 
 markdown_extensions:
+  - admonition
   - pymdownx.highlight:
       linenums: true
   - pymdownx.superfences:
@@ -33,10 +34,14 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:mermaid2.fence_mermaid
 
+# si vous voulez un style custom
+# extra_css: [extra.css]
+
 plugins:
   - mermaid2:
       version: 8.9.0
   - search
+  - mkdocs-video
 ```
 
 Exemple de docker-compose.yml (avec traefik2)
